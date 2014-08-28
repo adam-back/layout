@@ -1,3 +1,9 @@
 body {
   /* rules go here */
 }
+
+#logo {
+	width: 250px;
+	margin: 170px auto;
+	display: block;
+}
