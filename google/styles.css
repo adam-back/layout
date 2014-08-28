@@ -28,14 +28,17 @@ input:focus {
 	outline: none;
 }
 
-#search {
+.center {
 	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+
+button {
+	margin-right: 15px;
 	min-width: 25px;
 	min-height: 25px;
-	margin: 15px auto 0 auto;
-	font-size: 10px;
-	font-style: Arial, sans-serif;
-	font-weight: bold;
+	font: bold 11px Arial, san-serif;
 	text-align: center;
 	border: 1px solid rgb(216, 216, 216);
 	outline: none;
