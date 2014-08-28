@@ -4,6 +4,26 @@ body {
 
 #logo {
 	width: 250px;
-	margin: 170px auto;
+	margin: 150px auto 0 auto;
 	display: block;
+}
+
+input {
+	width: 550px;
+	margin: 30px auto 0 auto;
+	height: 25px;	
+	display: block;
+	font-size: 16px;
+	font-style: Arial, sans-serif;
+	border: 1px solid rgb(216, 216, 216);
+
+}
+
+input:hover {
+	border: 1px solid rgb(163, 163, 163);
+}
+
+input:focus {
+	border: 1px solid rgb(72, 142, 241);
+	outline: none;
 }
