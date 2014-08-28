@@ -27,3 +27,25 @@ input:focus {
 	border: 1px solid rgb(72, 142, 241);
 	outline: none;
 }
+
+#search {
+	display: block;
+	min-width: 25px;
+	min-height: 25px;
+	margin: 15px auto 0 auto;
+	font-size: 10px;
+	font-style: Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid rgb(216, 216, 216);
+	outline: none;
+	background-color: rgb(242, 242, 242);
+	color: rgb(68, 68, 68);
+	border-radius: 2px;
+}
+
+button:hover {
+	box-shadow: 0 1px 1px rgb(190, 190, 190);
+	color: black;
+	border-color: rgb(190, 190, 190);
+}
