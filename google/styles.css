@@ -3,8 +3,8 @@ body {
 }
 
 #logo {
-	width: 250px;
-	margin: 150px auto 0 auto;
+	width: 275px;
+	margin: 200px auto 0 auto;
 	display: block;
 }
 
@@ -35,9 +35,9 @@ input:focus {
 }
 
 button {
-	margin-right: 15px;
+	margin-right: 10px;
 	min-width: 25px;
-	min-height: 25px;
+	height: 30px;
 	font: bold 11px Arial, san-serif;
 	text-align: center;
 	border: 1px solid rgb(216, 216, 216);
