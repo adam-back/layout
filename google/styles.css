@@ -31,11 +31,11 @@ input:focus {
 .center {
 	display: block;
 	text-align: center;
-	margin-top: 15px;
 }
 
 button {
 	margin-right: 10px;
+	margin-top: 15px;
 	min-width: 25px;
 	height: 30px;
 	font: bold 11px Arial, san-serif;
@@ -62,12 +62,32 @@ footer {
 	background: rgb(242, 242, 242);
 	height: 40px;
 	margin: 0;
-	width: 110%;
+	width: 101%;
 	color: rgb(222, 222, 222);
 	border-top: 1px solid rgb(228, 228, 228);
 }
 
-footer li {
-	list-style-type: none;
-	display: inline;
+
+footer div {
+	font: 13px Arial;
+	color: rgb(102, 102, 102);
+	display: inline-block;
+	
+}
+
+#leftfooter {
+	float: left;
+	margin-top: 13px;
+	margin-left: 40px;
+	text-align: left;
+}
+
+#rightfooter {
+	float: right;
+	margin-top: 13px;
+	text-align: right;
+}
+
+a {
+	margin-right: 30px;
 }
