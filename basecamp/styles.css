@@ -79,6 +79,7 @@ button {
 
 #try {
 	margin-top: 40px;
+	margin-bottom: 40px;
 	background-color: rgb(24, 110, 201);
 	width: 500px;
 	height: 70px;
@@ -87,5 +88,15 @@ button {
 
 #try:hover {
 	background-color: rgb(46, 133, 227);
+}
+
+div.narrow {
+	text-align: left;
+	margin: 0 7% 0 7%;
+}
+
+div.narrow p, div.narrow a {
+	font-size: 20px;
+	line-height: 26px;
 }
 
