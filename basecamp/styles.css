@@ -7,11 +7,18 @@ header {
 	display: block;
 }
 
-a #sprite {
+.left a {
+	background: url(BasecampSprite.png) no-repeat;
+	display: block;
 	width: 150px;
-	height: 75px;
-	overflow: hidden;
+	height: 43px;
+	text-indent: -9999px;
 }
+
+.left a:hover {
+	background-position: 0 -43px;
+}
+
 a, a:visited {
 	font-size: 14px;
 	color: rgb(24, 110, 201);
