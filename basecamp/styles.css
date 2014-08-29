@@ -1,3 +1,54 @@
 body{
   /* rules go here */
+ 	font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+}
+
+header {
+	display: block;
+}
+
+a #sprite {
+	width: 150px;
+	height: 75px;
+	overflow: hidden;
+}
+a, a:visited {
+	font-size: 14px;
+	color: rgb(24, 110, 201);
+}
+
+.left {
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.right {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.right a {
+	margin-right: 10px;
+}
+
+
+button {
+	border-radius: 2px;
+	border: 1px solid rgb(29, 87, 148);
+	box-shadow: 0 2px rgb(29, 87, 148);
+	outline: none;
+}
+
+#login {
+	min-width: 70px;
+	min-height: 30px;
+	font-size: 12px;
+	background-color: rgb(24, 100, 201);
+	color: white;
+}
+
+#login:hover {
+	background-color: rgb(46, 133, 227);
 }
